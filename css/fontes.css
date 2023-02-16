@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'ShadowsInto';
+    src: url('../fonts/ShadowsIntoLight-Regular.ttf') format('truetype');
+  }
+
+
+@font-face {
+font-family: 'Dosis';
+src: url('../fonts/Dosis-VariableFont_wght.ttf') format('truetype');
+}

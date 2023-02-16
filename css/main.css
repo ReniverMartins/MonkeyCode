@@ -1,0 +1,65 @@
+/*---Default Body---*/
+body{
+    background-image: url(../img/bkg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+}
+
+
+/*--- ColorNavBar ---*/
+.navbar{
+    background-color: rgba(252, 252, 251, 0.938);
+}
+
+/*--- FonteLogo/Menu ---*/
+.navbar-brand{
+    font-family: 'ShadowsInto';
+    font-size: 33px;
+}
+
+.nav-item{
+    font-family: 'Dosis';
+    font-size: 20px;
+}
+
+.loadingText{
+    font-family: ShadowsInto;
+}
+
+
+/*-- animação Loading --*/
+.c-loader{
+margin: auto;
+display: flex;
+justify-content: center;
+min-height: 60px;
+
+animation: is-rotating 1s infinite;
+
+border: 9px solid rgb(66, 150, 228);
+border-top-color: rgb(15, 106, 190);
+border-radius: 50%;
+width: 60px;
+height: 50px;
+}
+
+@keyframes is-rotating {
+   to{
+    transform: rotate(1turn);
+   } 
+}
+
+
+/*-- Conteudo --*/
+.conteudo{
+    background-color: rgba(218, 219, 219, 0.945);
+    border-radius: 20px;
+
+    text-align: center;
+}
+.conteudo img{
+    margin: auto;
+    display: block;
+    max-width: 400px;
+}
