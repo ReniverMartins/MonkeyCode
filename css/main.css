@@ -26,6 +26,7 @@ body {
 }
 
 .loadingText {
+    font-size: 30px;
     font-family: ShadowsInto;
     color: white;
 }
@@ -63,4 +64,19 @@ body {
     margin: auto;
     display: block;
     max-width: 400px;
+}
+
+.cardsCentral{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgba(88, 88, 88, 0.938);
+    color: white;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
 }
