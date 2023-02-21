@@ -16,10 +16,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-white p-3">
+<!--Nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark p-3">
         <div class="container-fluid">
             <!--imgLogo | class: imgLogo-->
-            <img src="./img/LOGO.PNG.png" class="imgLogo" alt="">
+            <img src="./img/imgLogo.png" class="imgLogo" alt="logo MonkeyCode">
             <a class="navbar-brand" href="#">Monkey Code</a>
             <!--DropDown Recursivo-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -30,10 +31,13 @@
             <div class=" collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto ">
                     <li class="nav-item">
-                        <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link mx-2" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-2" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Parceiros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-2" href="#">Parceiros</a>
@@ -52,27 +56,25 @@
             </div>
         </div>
     </nav>
-
-    <br>
-    <br>
-
-    <div class="container"> <!-- Container Principal 80% -->
+        <br>
+        <br>
+    <div>
         <div class="conteudo">
-            <img src="./img/LOGO.PNG.png" alt="">
+            <img src="./img/imgLogo.png" alt="">
 
-            <div class="c-loader"></div>
+            <div class="c-loader">^</div>
             <br>
             <h1 class="loadingText">Loading...</h1>
             <br>
         </div>
-
         <br>
     </div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+
+    <script src="./scripts/sysLogin.js"></script>
 </body>
 
 </html>
