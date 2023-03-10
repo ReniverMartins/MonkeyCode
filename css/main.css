@@ -1,9 +1,13 @@
 /*---Default Body---*/
 body {
-    background-image: url(../img/bkg.jpg);
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/BackGround.jpeg);
     background-repeat: no-repeat;
-    background-attachment: inherit;
-    background-size: cover;   
+    background-size: cover;
+    position: relative;
 }
 
 
@@ -56,8 +60,9 @@ body {
 
 /*-- Conteudo --*/
 .conteudo {
-    background-color: rgba(206, 209, 209, 0.945);
+    background-color: rgba(228, 228, 226, 0.808);
     text-align: center;
+    min-height: 300px;
 }
 
 .conteudo img {
@@ -66,17 +71,44 @@ body {
     max-width: 400px;
 }
 
-.cardsCentral{
+.cardsCentral {
     margin: auto;
     display: flex;
     justify-content: center;
 }
 
-footer{
-    background-color: rgba(88, 88, 88, 0.938);
-    color: white;
-    margin: auto;
-    padding: auto;
-    display: flex;
-    justify-content: center;
+.imgDinamic{
+    height: 150px;
 }
+
+.card-text{
+    text-align: center;
+}
+
+.cardCentral{
+    margin-right: 45px;
+    background-color: #535e67;
+}
+
+
+footer a.text-light:hover {
+    color: #fed136 !important;
+    text-decoration: none;
+}
+
+footer .cizgi {
+    border-right: 1px solid #535e67;
+}
+
+    @media (max-width: 992px) {
+        footer .cizgi {
+            border-right: none;
+        }
+    }
+
+    .fixarRodape {
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+    }
